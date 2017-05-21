@@ -1,0 +1,2 @@
+android.app.Application
+Facebook_Integration.Droid

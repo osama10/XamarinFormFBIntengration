@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Facebook_Integration.Views.FacebookProfilePage">
+  <StackLayout x:Name="MainStackLayout"
+                Padding="8,30">
+
+      <StackLayout Orientation="Vertical">
+
+        <Label Text="{Binding FacebookProfile.Name, StringFormat='Name: {0:N}'}"
+               TextColor="Black"
+               Font="Bold"
+               FontSize="22"/>
+
+        <Label Text="{Binding FacebookProfile.Id, StringFormat='Id: {0:N}'}"
+               TextColor="Black"
+               FontSize="20"/>
+
+
+    </StackLayout>
+
+
+  </StackLayout>
+
+</ContentPage>
